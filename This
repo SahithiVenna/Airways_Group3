@@ -1,0 +1,17 @@
+Top hits for "start--" "will" "start" "the" "server" "at" "port" "3000"
+————————————————————————————————————————————————————————————————————————————————
+npm help config            3000:1 at:231 port:5 server:1 start:3 the:280 will:51
+npm help package-json             at:178 port:8 server:4 start:7 the:248 will:51
+npm help scripts                  at:50 port:5 server:6 start:12 the:110 will:15
+npm help semver                            at:146 port:1 start:1 the:155 will:15
+npm help install                            at:96 port:5 start:1 the:168 will:45
+npm help developers                           at:65 port:1 start:3 the:74 will:5
+npm help exec                                at:30 port:2 start:4 the:82 will:12
+npm help npx                                 at:29 port:1 start:4 the:81 will:12
+npm help package-lock-json                  at:50 server:1 start:1 the:64 will:5
+npm help disputes                             at:41 port:6 start:1 the:65 will:4
+————————————————————————————————————————————————————————————————————————————————
+(run with -l or --long to see more context)
+
+Did you mean this?
+    start

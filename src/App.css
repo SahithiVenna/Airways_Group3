@@ -1,0 +1,312 @@
+.FancyBorder {
+  padding: 10px 10px;
+  border: 10px solid;
+}
+
+.FancyBorder-blue {
+  border-color: rgb(143, 24, 3);
+}
+
+.Dialog-title {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.Dialog-message {
+  font-size: larger;
+}
+
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+  padding: 5px;
+  
+  transition: transform .2s; /* Animation */
+  
+  margin: 0 auto;
+}
+
+.bgImage{
+  background-size: cover;
+  height: 150%;
+}
+
+#grad {
+  background-image: linear-gradient(to bottom right black, maroon);
+}
+
+.cardHover:hover{
+	box-shadow: 1px 1px 40px 5px #4d4d4d
+}
+
+.serif{
+  font-family:serif
+}
+
+.roundHover:hover{
+	box-shadow: 1px 1px 10px 5px grey
+}
+
+.blackBg{
+  background-color: black;
+  color: white;
+}
+
+.tranlucentDiv{
+  background-color: rgba(230, 230, 230, 0.5);
+}
+
+.round-corner{
+	border-radius: 20px;
+}
+
+.blurDiv-roundCorners{  
+  background-color: rgba(230, 230, 230, 0.7);
+  color:black;
+  padding:20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 30px 5px #4d4d4d
+}
+
+.loginBtn{
+	width: 120px;
+}
+
+.bookBgImg{
+  background-image:url('https://images.unsplash.com/photo-1521727857535-28d2047314ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-position:center;
+            background-size:cover;
+            height:96vh;
+            Width:100%
+}
+
+.LoginBgImg{
+	background-image:url('https://wallpaperaccess.com/full/850499.jpg');
+			  background-position:center;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+  
+  
+.regBgImg{
+	background-image:url('https://wallpapercave.com/wp/wp2574382.jpg');
+			  background-position:center;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+.cancelticketBgImg{
+	background-image:url('https://images.unsplash.com/photo-1535362664073-857d2809389e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+			  background-position:center;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+.paymentBgImg{
+	background-image:url('https://images.unsplash.com/photo-1567366009345-73a2eee59516?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+			  background-position:center;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  
+  .bookingDetailsBgImg{
+	background-image:url('https://images.unsplash.com/photo-1446160657592-4782fb76fb99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80');
+			  background-position:center bottom;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  .adminFlightListBgImg{
+	background-image:url('https://images.unsplash.com/photo-1595921728731-9a4f9d5dfcd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
+			  background-position:center bottom;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  .adminAnUBgImg{
+	background-image:url('https://images.unsplash.com/photo-1595865269486-a58ccf2d94fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+			  background-position:center;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  .viewFlightBgImg{
+	background-image:url('https://images.unsplash.com/photo-1530545124313-ce5e8eae55af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80');
+			  background-position:center bottom;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  .profileBgImg{
+	background-image:url('https://images.unsplash.com/photo-1530521954074-e64f6810b32d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80');
+			  /* background-position:center; */
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  .changePassBgImg{
+	background-image:url('https://images.unsplash.com/photo-1564689439743-baefac4b52d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
+			  background-position:center;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  .logoutBgImg{
+	background-image:url('https://images.unsplash.com/photo-1609408341205-861253559a83?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80');
+			  background-position:center;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  .viewTicketBgImg{
+	background-image:url('https://images.unsplash.com/photo-1600189085981-80c902629362?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80');
+			  background-position:center ;
+			  background-size:cover;
+			  height:96vh;
+			  Width:100%
+  }
+
+  .homePageBg{
+	/* background-image:url('https://images.unsplash.com/photo-1595921728731-9a4f9d5dfcd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80'); */
+			   /* background-position:center bottom;  */
+			  background-size:cover;
+			  /* height:96vh; */
+			  Width: 100%;
+  }
+
+.card-border{
+	border-radius: 10px;
+}
+
+.card-content{
+	padding: 1rem;
+	background: linear-gradient(to bottom left, #000000 40%, #351f1f 100%);
+	color:white
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*Apply css properties to body*/
+	
+.bd {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+}
+
+.card-img-top{
+	transform: scale(1);
+	transition: transform 0.5s ease ;
+}
+
+.card-img-top:hover{
+	transform: scale(1.1);
+}
+
+.plane-img{
+	transform: scale(1.1);
+	transition: transform 0.5s ease ;
+}
+
+.plane-img:hover{
+	transform: scale(1.2);
+}
+
+.btn-zoom{
+	transform: scale(1);
+	transition: transform 0.5s ease ;
+}
+
+.btn-zoom:hover{
+	transform: scale(1.2);
+}
+
+.overflow{
+	overflow: auto;
+}
+
+.overflow-home{
+	overflow: hidden;
+}
+/*Apply css properties to container class*/
+	
+/* .container {
+	position: relative;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 35px;
+} */
+/*Apply css properties to card class*/
+	
+/* .container .card {
+	height: 220px;
+	max-width: 200px;
+	position: relative;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	background: wheat;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 202px black;
+	transition: 0.3s ease-in-out;
+} */
+/*Apply css properties to card class when it get pointed by cursor*/
+	
+/* .container .card:hover {
+	height: 420px;
+}
+/*Apply css properties to imgbox class*/
+	
+/* .containe .card .imgbox {
+	position: relative;
+	width: 260px;
+	height: 260px;
+	top: -60px;
+	left: 20px;
+} */
+/*Apply css properties to img tag*/
+	
+/* .container .card .imgbox img {
+	max-width: 100%;
+	border-radius: 4px;
+} */
+/*Apply css properties to content class*/
+	
+/* .container .card .content {
+	position: relative;
+	margin-top: -100px;
+	padding: 10px 15px;
+	text-align: center;
+	color: #111;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+} */
+/*Apply css properties to content when card gets hovered*/
+	
+/* .container .card:hover .content {
+	visibility: visible;
+	opacity: 1;
+	margin-top: -10px;
+	transition-delay: 0.3s;
+} */ 
+/* Css part completed*/
