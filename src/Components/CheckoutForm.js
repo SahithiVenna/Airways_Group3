@@ -70,8 +70,8 @@ function CheckoutForm({ product , userData }) {
     });
     return (
       <div>
-        {/* <h1>Congrats, you just bought {product.name}!</h1>
-        <img src={product.imageUrl} alt={product.description} /> */}
+         <h1>Congrats, you just bought {product.name}!</h1>
+        <img src={product.imageUrl} alt={product.description} />
       </div>
     );
   }
@@ -82,7 +82,6 @@ function CheckoutForm({ product , userData }) {
       <h1>
         {product.description} for ${product.price}
       </h1>
-      <div ref={paypalRef} />
     </div>
   );
 }

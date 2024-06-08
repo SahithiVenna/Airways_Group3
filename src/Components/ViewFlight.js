@@ -46,24 +46,24 @@ class ViewFlight extends Component {
                     <h3 className="text-center" style={font}>Flight Details</h3>
                     <div className="card-body">
                         <div className="row">
-                            <div className="col-md-3" ><label><h5 style={font}>Flight Number : </h5></label></div>
+                            <div style={{ width : "30px"}} className="col-md-3" ><label><h5 style={font}>Flight Number : </h5></label></div>
                             <div className="col-md-3"><h5 style={font}>{this.state.flight.flight_No}</h5></div>
 
-                            <div className="col-md-3" ><label><h5 style={font}>Flight Name : </h5></label></div>
+                            <div style={{ width : "30px"}} className="col-md-3" ><label><h5 style={font}>Flight Name : </h5></label></div>
                             <div className="col-md-3"><h5 style={font}>{this.state.flight.flight_Name}</h5></div>
                         </div><hr />
                         <div className="row">
-                            <div className="col-md-3"><label><h5 style={font}>Source : </h5></label></div>
+                            <div style={{ width : "30px"}} className="col-md-3"><label><h5 style={font}>Source : </h5></label></div>
                             <div className="col-md-3"><h5 style={font}>{this.state.flight.source}</h5></div>
 
-                            <div className="col-md-3"><label><h5 style={font}>Destination : </h5></label></div>
+                            <div style={{ width : "30px"}} className="col-md-3"><label><h5 style={font}>Destination : </h5></label></div>
                             <div className="col-md-3"><h5 style={font}>{this.state.flight.destination}</h5>
                             </div>
                         </div>
                         <hr />
                         <div className="row">
                             <div className="col-md-3">
-                                <label><h5 style={font}>Takeoff Time : </h5></label></div>
+                                <label><h5 style={{font, width : "30px"}}>Takeoff Time : </h5></label></div>
                             <div className="col-md-3"><h5 style={font}>{this.state.flight.takeoff_Time}</h5>
                             </div>
 
@@ -88,14 +88,14 @@ class ViewFlight extends Component {
                         <hr />
                         <div className="row">
                             <div className="col-md-3">
-                                <label><h5 style={font}>Available Tickets : </h5></label></div>
+                                <label><h5 style={{font, width : "30px"}}>Available Tickets : </h5></label></div>
                             <div className="col-md-3"><h5 style={font}>{this.state.flight.available_Tickets}</h5>
                             </div>
 
 
 
                             <div className="col-md-3">
-                                <label><h5 style={font}>Travel Date : </h5></label></div>
+                                <label><h5 style={{font, width : "30px"}} >Travel Date : </h5></label></div>
                             <div className="col-md-3"><h5 style={font}>{this.state.flight.travel_Date}</h5>
                                 <br></br>
                             </div>

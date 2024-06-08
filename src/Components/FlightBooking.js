@@ -25,10 +25,10 @@ class FlightBooking extends Component {
 
     componentDidMount() {
         FlightService.getBookings(sessionStorage.getItem('Id')).then((res => {
+            this.setState({ bookings: res.data });
+
             if (this.state.bookings.length === 0) {
                 this.setState({ displayInfo: 2 });
-            } else {
-                this.setState({ bookings: res.data });
             }
         }));
     }
@@ -42,7 +42,7 @@ class FlightBooking extends Component {
         }
 
         const font = {
-            fontFamily: "Cursive"
+            fontFamily: "serfif"
         };
 
 
@@ -67,8 +67,8 @@ class FlightBooking extends Component {
                     <div className="row col-md-8 offset-md-2 animate__animated animate__fadeInDown blurDiv-roundCorners">
                         <div>
                             <br /><br /><br /><br />
-                            <div class="container-fluid col-sm-12 animate__animated animate__fadeInRight animate__delay-1s" style={{ backgroundColor: "red", padding: "10px", borderRadius: "5px" }}>
-                                <h1 class="animate__animated animate__fadeIn animate__delay-2s" align="center" style={{ color: "blue", fontFamily: "serif" }}>Your Bookings</h1>
+                            <div class="container-fluid col-sm-12 animate__animated animate__fadeInRight animate__delay-1s" style={{ backgroundColor: "coral", padding: "10px", borderRadius: "5px" }}>
+                                <h1 class="animate__animated animate__fadeIn animate__delay-2s" align="center" style={{ color: "white", fontFamily: "serif" }}>Your Bookings</h1>
                             </div>
                             <br /><br />
                         </div>
@@ -106,7 +106,7 @@ class FlightBooking extends Component {
                             </table>
                         </MDBTable>
                     </div>
-
+                    
                 </div>
             )
         }

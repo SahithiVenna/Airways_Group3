@@ -143,7 +143,7 @@ class CreateFlight extends Component {
                             <div className="card-body">
                                 <form class="" onSubmit={this.saveOrUpdateFlight}>
 
-                                    <div className="row">
+                                    <div className="row" style={{ width : "30px"}}>
                                         <div className="form-group ">
                                             <label><h6 style={font}>Flight Name</h6></label>
                                             <input style={rounded} placeholder="Flight Name" type="text" name="flight_Name" class="form-control" value={this.state.flight_Name} onChange={this.changeFlightNameHandler} required minLength="4" />
@@ -155,7 +155,7 @@ class CreateFlight extends Component {
                                             <label><h6 style={font}>Source</h6></label>
                                             <input style={rounded} placeholder="Source" type="text" name="source" class="form-control" value={this.state.source} onChange={this.changeSourceHandler} required minLength="3"/>
                                         </div>
-                                        <div className="form-group col-md-6">
+                                        <div className="form-group col-md-6" style={{ width : "30px"}}>
                                             <label><h6 style={font}>Destination</h6></label>
                                             <input style={rounded} placeholder="Destination" type="text" name="destination" class="form-control" value={this.state.destination} onChange={this.changeDestinationHandler} required minLength="3"/>
                                         </div>
@@ -191,11 +191,11 @@ class CreateFlight extends Component {
                                         <input style={rounded} placeholder="Travel Date" type="date" name="travel_Date" class="form-control" value={this.state.travel_Date} onChange={this.changeTravelDateHandler} required />
                                     </div>
                                     <br /><br />
-                                    <center>
+                                    <centerr>
                                         <button className="btn btn-success" type="submit" style={rounded}><FaSave />&nbsp;Save</button>&nbsp;&nbsp;
                                         <button className="btn btn-danger" onClick={this.cancel} style={rounded}><MdCancel/>&nbsp;Cancel</button>
 
-                                    </center>
+                                    </centerr>
                                 </form>
                             </div>
                         </div>
